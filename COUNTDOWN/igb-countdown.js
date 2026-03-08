@@ -15,10 +15,10 @@
   var enableSound = (typeof userConfig.enableSound === "boolean") ? userConfig.enableSound : true;
   var soundUrl = userConfig.soundUrl || "launch-sound.mp3"; // pon tu archivo de sonido
 
-  var titleText = userConfig.titleText || "🔥 iGunBound — lanzamiento Oficial 🔥";
+  var titleText = userConfig.titleText || "🔥 𝐢𝐆𝐮𝐧𝐁𝐨𝐮𝐧𝐝 — 𝐥𝐚𝐧𝐳𝐚𝐦𝐢𝐞𝐧𝐭𝐨 𝐎𝐟𝐢𝐜𝐢𝐚𝐥 🔥";
   var subtitleText =
     userConfig.subtitleText ||
-    "La cuenta regresiva ya empezó. Ajusta la fecha y hora del lanzamiento en el código y compártelo donde quieras.";
+    "𝐋𝐚 𝐜𝐮𝐞𝐧𝐭𝐚 𝐫𝐞𝐠𝐫𝐞𝐬𝐢𝐯𝐚 𝐡𝐚 𝐜𝐨𝐦𝐞𝐧𝐳𝐚𝐝𝐨. ¡𝐏𝐫𝐞𝐩𝐚́𝐫𝐚𝐭𝐞 𝐩𝐚𝐫𝐚 𝐞𝐥 𝐥𝐚𝐧𝐳𝐚𝐦𝐢𝐞𝐧𝐭𝐨 𝐨𝐟𝐢𝐜𝐢𝐚𝐥 𝐝𝐞 𝐢𝐆𝐮𝐧𝐁𝐨𝐮𝐧𝐝 𝐎𝐧𝐥𝐢𝐧𝐞! 🚀";
 
   // ==============================
   // 🌍 I18N (ES / EN automático)
@@ -486,7 +486,7 @@
       + "  </div>"
       + "  <div class='igb-footer'>"
       + "    <div class='igb-footer-tags'>"
-      + "      <span>iGunBound 2026</span><span>•</span><span>Niveles HD</span><span>•</span><span>Guild Prix</span><span>•</span><span>Champions League</span>"
+      + "      <span>𝐢𝐆𝐮𝐧𝐁𝐨𝐮𝐧𝐝 𝟐𝟎𝟐𝟔</span><span>•</span><span>𝐍𝐮𝐞𝐯𝐨𝐬 𝐍𝐢𝐯𝐞𝐥𝐞𝐬 𝐇𝐃</span><span>•</span><span>𝐆𝐮𝐢𝐥𝐝 𝐏𝐫𝐢𝐱 </span><span>•</span><span>𝐢𝐆𝐁 𝐂𝐡𝐚𝐦𝐩𝐢𝐨𝐧𝐬 𝐋𝐞𝐚𝐠𝐮𝐞</span>"
       + "    </div>"
       + "    <a href='" + downloadUrl + "' class='igb-download-btn' id='igb-download-btn'>" + t.download + "</a>"
       + "  </div>"
@@ -721,5 +721,6 @@
     initCountdown();
   });
 })();
+
 
 
