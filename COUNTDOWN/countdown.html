@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>Cuenta regresiva iGunBound</title>
+  </head>
+  <body class="igb-body">
+    <!-- Aquí se pintará el contador -->
+    <div id="igb-countdown"></div>
+
+    <!-- (Opcional) Configuración personalizada -->
+   <script>
+  window.IGBCountdownConfig = {
+    launchDateLima: "2026-03-07T00:00:00",
+    logoUrl: "apple-touch-icon.png",
+    downloadUrl: "https://igunbound.net",
+
+    enableSound: true,
+    soundUrl: "launch-sound.mp3",
+
+    // 🎵 MÚSICA DE FONDO
+    enableBgm: true,
+    bgmUrl: "Kokushibo's Wrath  ｜ Demon Slayer： Infinity Castle ｜ 鬼滅の刃 OST Cover.mp3",
+    bgmVolume: 0.25,
+    bgmAutoplay: false,
+    bgmLoop: true,
+    bgmStopOnLaunch: false
+  };
+</script>
+
+
+    <!-- Tu script principal del contador -->
+    <script src="igb-countdown.js"></script>
+
+    <!-- 🔥 OVERRIDES DE DISEÑO -->
+    <style>
+      /* 1. TÍTULO CENTRADO */
+      .igb-title{
+        text-align: center;
+      }
+
+      /* 2. MODO CLARO: NÚMEROS Y TEXTOS NEÓN */
+      body.igb-body.igb-light .igb-num{
+        background: linear-gradient(180deg, #FFFFFF, #9CFFF6, #3CFFF2);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        text-shadow:
+          0 0 8px rgba(120,255,235,0.8),
+          0 0 18px rgba(60,230,210,0.8),
+          0 0 28px rgba(0,200,190,0.7);
+      }
+
+      body.igb-body.igb-light .igb-lbl{
+        color: #35E889;
+        text-shadow:
+          0 0 6px rgba(80,255,150,0.8),
+          0 0 14px rgba(40,210,120,0.7);
+      }
+
+      /* 3. TEXTO DE HORA LOCAL + ZONA EN NEÓN VISIBLE */
+      body.igb-body.igb-light #igb-targetText,
+      body.igb-body.igb-light #igb-tzText{
+        color: #B58CFF;
+        text-shadow:
+          0 0 6px rgba(181,140,255,0.9),
+          0 0 14px rgba(140,110,255,0.8);
+      }
+    </style>
+  </body>
+</html>
+
+
+
