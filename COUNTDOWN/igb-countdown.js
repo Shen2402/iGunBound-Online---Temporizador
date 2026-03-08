@@ -6,7 +6,7 @@
   var userConfig = window.IGBCountdownConfig || {};
 
   // Fecha/hora del evento definida en HORA DE LIMA (UTC-5)
-  var launchDateLima = userConfig.launchDateLima || "2026-03-07T00:00:00"; // AAAA-MM-DDTHH:MM:SS
+  var launchDateLima = userConfig.launchDateLima || "2026-03-11T00:00:00"; // AAAA-MM-DDTHH:MM:SS
   var LIMA_UTC_OFFSET = -5; // América/Lima = UTC-5
 
   var logoUrl = userConfig.logoUrl || "apple-touch-icon.png"; // pon aquí tu logo
@@ -721,4 +721,5 @@
     initCountdown();
   });
 })();
+
 
